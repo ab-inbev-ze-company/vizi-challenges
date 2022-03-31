@@ -42,16 +42,16 @@ Abaixo está detalhado os serviços e como funciona sua utilização:
     - id: Id único gerado randomicamente;
     - openFridge: Data que o serviço foi chamado;
     - closeFridge: Data do campo openFridge adicionando 1 minuto;
-    - products: Retorna randomicamente os mesmo produtos do serviço `/products`, porém, adicionando o campo **quantity** que também é um valor randômico;
+    - products: Retorna randomicamente os mesmo produtos do serviço **`/products`**, porém, adicionando o campo **quantity** que também é um valor randômico;
 
-- Rota **`/payments`**,  esta rota servirá tanto para criar um pagamento pelo POST (passando os campos `transactionId` e `amount` no body), quanto para listar todos os pagamentos pelo GET, retornará esses campos:
+- Rota **`/payments`**,  esta rota servirá tanto para criar um pagamento pelo POST (passando os campos **`transactionId`** e **`amount`** no body), quanto para listar todos os pagamentos pelo GET, retornará esses campos:
     - id: Id único gerado randomicamente;
     - paymentDate: Data em que os serviço foi chamado;
     - transactionId: Id da transação que gerou a ordem de pagamento;
-    - amount: Na chamada `/transaction`, retornará o campo **products**, então para preencher este campo, você precisa fazer um calculo, multiplicando o campo **price** do produto com o campo **quantity** do produto.
+    - amount: Na chamada **`/transaction`**, retornará o campo **`products`**, então para preencher este campo, você precisa fazer um calculo, multiplicando o campo **`price`** do produto com o campo **`quantity`** do produto.
     - status: PAID ou REJECTED, o valor é retornado randomicamente;
 
-- Rota **`/transactions/{id}`** e **`/payments/{id}`**, deve ser feito um GET para buscar os seus detalhes. Ao clicar em um pagamento para exibir os detalhes, já que nos dados do pagamento você tem o campo **transactionId**, é possível buscar os dados somente daquela transação dessa forma **`/transactions/{valor do campo transactionId}`**
+- Rota **`/transactions/{id}`** e **`/payments/{id}`**, deve ser feito um GET para buscar os seus detalhes. Ao clicar em um pagamento para exibir os detalhes, já que nos dados do pagamento você tem o campo **`transactionId`**, é possível buscar os dados somente daquela transação dessa forma **`/transactions/{valor do campo transactionId}`**
 
 Para melhorar o entendimento da api, dentro da pasta **`assets`** nesse repositório, tem alguns prints do fluxo.
 <br/>
