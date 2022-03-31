@@ -38,7 +38,7 @@ Abaixo está detalhado os serviços e como funciona sua utilização:
 
 - Rota **`/products`**, nela você fará um GET para listar os 15 produtos em sua página principal, tendo que exibir o nome, preço e a imagem.
 
-- Rota **`/transactions`**, nela você fará um POST, não é necessário passar dados no body, esse serviço retornará os seguintes campos:
+- Rota **`/transactions`**, nela você fará um POST, não é necessário passar dados no body, propositalmente, o serviço demora 3 segundos para dar uma resposta, retornará os seguintes campos:
     - id: Id único gerado randomicamente;
     - openFridge: Data que o serviço foi chamado;
     - closeFridge: Data do campo openFridge adicionando 1 minuto;
