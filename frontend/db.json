@@ -1,0 +1,42 @@
+{
+  "products": [],
+  "transactions": [
+    {
+      "id": "l1eddsxevvk5o6acysd",
+      "openFridge": "2022-03-31T02:20:30.840Z",
+      "closeFridge": "2022-03-31T02:21:30.840Z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Guaraná Antarctica 2L",
+          "price": 7.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4bddaa2311de7e142511ecde1a88daeb.png",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Corona Extra 330ml",
+          "price": 5.79,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/4518362b24dedc7d296abf5590d6184c.png",
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "name": "Do Bem Suco de Laranja Integral 1",
+          "price": 8.65,
+          "thumb": "https://www.catalogoambev.com.br/images/uploads/artes-finais/53780b507bafd1a4bfb6b006084a2460.png",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": "l1edk4tmlybbn4ffne9",
+      "paymentDate": "2022-03-31T02:25:29.194Z",
+      "transactionId": "l1eddsxevvk5o6acysd",
+      "amount": 65.55,
+      "status": "PAID"
+    }
+  ]
+}
