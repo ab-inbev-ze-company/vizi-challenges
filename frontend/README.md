@@ -2,7 +2,7 @@
 
 Primeiramente, obrigado pelo seu interesse em trabalhar na Vizi, a geladeira de bebidas com preço de mercado, dentro do seu condomínio.
 
-Abaixo você encontrará todos as informações necessárias para iniciar o seu teste.
+Abaixo você encontrará todas as informações necessárias para iniciar o seu teste.
 
 ## Avisos antes de começar
 
@@ -58,6 +58,10 @@ Para melhorar o entendimento da api, dentro da pasta **`assets`** nesse reposit�
 <br/>
 
 **Orientações e dicas:**
+
+- Utilize a estrutura de pastas que achar mais adequada, bem como padrões, patterns, práticas de segurança, performance etc.
+
+- Caso você seja JR e tenha algum receio, não se preocupe, iremos avaliar o que foi entregue, mesmo com pendências.
 
 - Esperamos que você consiga completar o mínimo do desafio. Mas fique a vontade para nos surpreender com o seu melhor! 😉
 
