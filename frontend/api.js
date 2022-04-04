@@ -84,7 +84,7 @@ const takeProducts = () => {
     const randomSize = Math.floor((Math.random() * (10 - 1) + 1));
     const randomQuantity = () => Math.floor((Math.random() * (5 - 1) + 1));
 
-    return products.splice(0, randomSize).map(product => {
+    return [...products].splice(0, randomSize).map(product => {
         product.quantity = randomQuantity();
         return product;
     });
